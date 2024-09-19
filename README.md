@@ -24,6 +24,6 @@ For you data scientists out there using AWS, we are working on a Sagemaker algor
 
 # Contact Us
 Do you have a question or problem with one of these solutions?  Is there something missing that would help you convince your boss you are a rockstar engineer?  Do you like what you see and want to learn more about our product or get a demo?
-* [Send us an email](engineering@harpin.ai)
+* [Send us an email](mailto:engineering@harpin.ai)
 * [Start a discussion on Github](https://github.com/harpin-ai/toolkit-examples/discussions)
 * [Request a demo](https://harpin.ai/demo/)
