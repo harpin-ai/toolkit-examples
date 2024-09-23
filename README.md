@@ -1,7 +1,7 @@
 ![image](images/harpinAI-logo-medium.png)
 
 * [Harpin AI Overview](#harpin-ai-overview)
-  * [The Problem](#the-problem)
+  * [The Business Problem](#the-business-problem)
   * [The Technical Challenge](#the-technical-challenge)
   * [The harpin AI Solution](#the-harpin-ai-solution)
 * [Repository Overview](#repository-overview)
@@ -12,7 +12,7 @@
 # Harpin AI Overview
 Quality entity data is the bedrock of effective business operations. Harpin AI maximizes the value of your data (and the value of your investment too). Our team of experts and ML/AI technologies pre-process your data in real time, enhancing the quality, authenticity, and integrity of your data. Harpin AI will transform inaccurate, erroneous data into a cost-saving, revenue-driving asset that feeds into and powers your sales, marketing, call centers, compliance and operational systems.
 
-## The Problem
+## The Business Problem
 Organizations have data, and dirty data at that, spread across many disparate systems today.  The reasons for this are plentiful but include selection of purpose-built technologies such as customer data platforms (CDPs), customer relation management (CRM) tools, customer loyalty systems, transactional systems for point of sale (POS) or payment, and so on, duplicative systems obtained through mergers and acquisitions, and legacy systems that were built over time to solve a specific business need.  Even if your company has created data warehouses and data lakes to bring all this data into a single technology, it's still a challenge to get an accurate representation of each customer as there is often no reliable way to link the data across all of these data sets.  You are then unable to find your most loyal customers, identify customers that are at risk of churn, or even get an idea of how many distinct customers you have.  And good luck using all the new ML and AI technologies out there as you will struggle to achieve the desired outcomes if you are training your models with messy data!  This is where harpin AI can help by pre-processing your data through our data quality and identity resolution technologies to provide high quality data organized into identity profiles for use in all of your downstream systems.
 
 ## The Technical Challenge
