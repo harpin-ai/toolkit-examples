@@ -1,6 +1,7 @@
 services:
   toolkit-master:
     image: harpinai/harpinai-toolkit:latest
+    platform: linux/amd64
     environment:
       - SPARK_MODE=master
       - SPARK_RPC_AUTHENTICATION_ENABLED=no
@@ -20,6 +21,7 @@ services:
       - ${HARPIN_DATA:-./}:/data
   toolkit-worker:
     image: harpinai/harpinai-toolkit:latest
+    platform: linux/amd64
     environment:
       - SPARK_MODE=worker
       - SPARK_MASTER_URL=spark://toolkit-master:7077
