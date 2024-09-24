@@ -27,7 +27,7 @@ While the main harpin AI toolkit is primarily offered as a software as a service
 ## Docker Image
 Download our harpin AI Toolkit Docker image and try out our identity resolution algorithm on your data.  Run the Docker image anywhere you have access to the data and a Docker runtime, in your cloud or on your own workstation.  The harpin AI shell will walk you through the setup and configuration process and have the resolution process running in Docker in no time at all.
 
-Step by step instructions for downloading and running the harpin AI Toolkit Docker image are available [here](???).
+Step by step instructions for downloading and running the harpin AI Toolkit Docker image are available [here](docker/README.md).
 
 ## AWS Sagemaker Algorithm
 *COMING SOON!!!*
