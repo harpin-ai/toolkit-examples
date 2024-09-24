@@ -2,7 +2,7 @@
 
 Download our harpin AI Toolkit Docker image and try out our identity resolution algorithm on your data. Run the Docker image anywhere you have access to the data and a Docker runtime, in your cloud or on your own workstation. The harpin AI shell will walk you through the setup and configuration process and have the resolution process running in Docker in no time at all.
 
-The image supports executing identity resolution on up to 5 million records as part of the trial. For handling more than 5 million records, please contact Harpin AI for additional options (https://harpin.ai/demo/)
+The image supports executing identity resolution on up to 5 million records as part of the trial. For handling more than 5 million records, please contact [Harpin AI]( (https://harpin.ai/demo/) for additional options.
 
 ## Instructions
 
@@ -257,4 +257,56 @@ Follow the instructions below to set up and run the Harpin AI Toolkit in a Docke
 8. **Run Identity Resolution**
 
    Use the `Run identity resolution` option to execute the identity resolution process.
+
+   Here is an example:
+
+   ```
+     _                      _            _    ___ 
+    | |__   __ _ _ __ _ __ (_)_ __      / \  |_ _|
+    | '_ \ / _\ | '__| '_ \| | '_ \    / _ \  | | 
+    | | | | (_| | |  | |_) | | | | |  / ___ \ | | 
+    |_| |_|\__,_|_|  | .__/|_|_| |_| /_/   \_\___|
+                     |_|                          
+                                                  
+   
+   Select an option:
+   
+   	1. Manage sources
+   	2. Run identity resolution
+   	3. Export config to S3
+   	4. Exit
+   
+   Enter selection [1-4]: 2
+   
+   Saving configuration to idres_config.yml...
+   
+   Executing identity resolution, this may take a while...
+   
+   
+   Loading records for source "Test" from "test/sample"...
+   Loaded 50000 records for source "Test" from "test/sample".
+   Total record count: 50000
+   Finished reading input data:  2024-09-24 21:57:44+00:00
+   Finished excluding bad cases:  2024-09-24 21:58:18+00:00
+   Finished pre-processing input data:  2024-09-24 22:00:35+00:00
+   Finished creating blocks/groups:  2024-09-24 22:10:13+00:00
+   Finished distributed clustering:  2024-09-24 22:15:39+00:00
+   Finished post-processing:  2024-09-24 22:16:45+00:00
+   
+   
+   Identity Graph Summary
+   ----------------------
+   Total records: 50000
+   Records pinned: 49102
+   
+   Total identities: 26496
+   
+   Found 36372 records with duplicates in source "Test".
+   
+   Identity graph written to "output/4b52fe79-67f6-49cb-81bf-bc09660c013f".
+   Identity resolution completed successfully
+   Duration: 1253 seconds
+   ```
+
+   The generated CSV output files stored at `output/<uuid>` (stored in the same directory as the Docker compose file or the HARPIN_DATA location if specified) contain the PIN (Profile Identification Number) to source record ID mapping. This mapping can be used to determine which source records belong to each profile.
 
