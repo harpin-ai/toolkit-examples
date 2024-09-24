@@ -1,6 +1,6 @@
 #This file provides the source configuration for the sample_data_50k.csv sample data file.
 sources:
-  - id: sample_data_50k
+  - id: clustering
     name: Sample Data 50k
     format: csv
     attributeMappings:
