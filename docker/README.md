@@ -41,10 +41,10 @@ Follow the instructions below to set up and run the Harpin AI Toolkit in a Docke
 
    | Number of Records  | 1 Worker    | 2 Workers  | 3 Workers  | 4 Workers  |
    |-------------------|-------------|------------|------------|------------|
-   | **100,000**   | 0.21 hours  | 0.17 hours | 0.16 hours | 0.17 hours |
-   | **1,000,000 Records** | 0.87 hours  | 0.54 hours | 0.46 hours | 0.45 hours |
-   | **2,500,000 Records** | 1.34 hours  | 0.84 hours | 0.75 hours | 0.62 hours |
-   | **5,000,000 Records** | 2.94 hours  | 1.38 hours | 1.14 hours | 0.99 hours |
+   | 100,000 Records   | 0.21 hours  | 0.17 hours | 0.16 hours | 0.17 hours |
+   | 1,000,000 Records | 0.87 hours  | 0.54 hours | 0.46 hours | 0.45 hours |
+   | 2,500,000 Records | 1.34 hours  | 0.84 hours | 0.75 hours | 0.62 hours |
+   | 5,000,000 Records | 2.94 hours  | 1.38 hours | 1.14 hours | 0.99 hours |
 
    - With **1 worker**, the process can take significantly longer, especially for larger datasets. For example, processing around 5 million records with 1 worker takes about 2.94 hours.
    - Adding more workers can drastically reduce the time. For instance, processing 5 million records with **2 workers** reduces the time to approximately 1.38 hours, while using **4 workers** drops the time to around 0.99 hours.
