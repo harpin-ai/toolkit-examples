@@ -6,7 +6,7 @@
   * [The harpin AI Solution](#the-harpin-ai-solution)
 * [Repository Overview](#repository-overview)
   * [Docker Image](#docker-image)
-  * [AWS Sagemaker Algorithm](#aws-sagemaker-algorithm)
+  * [Amazon SageMaker Algorithm](#amazon-sagemaker-algorithm)
 * [Contact Us](#contact-us)
 
 # Harpin AI Overview
@@ -29,10 +29,10 @@ Download our harpin AI Toolkit Docker image and try out our identity resolution 
 
 Step by step instructions for downloading and running the harpin AI Toolkit Docker image are available [here](???).
 
-## AWS Sagemaker Algorithm
+## Amazon SageMaker Algorithm
 *COMING SOON!!!*
 
-For you data scientists out there using AWS, we are working on a Sagemaker algorithm that will allow you to run the harpin AI toolkit with a single line of Python code in a Jupyter notebook.
+For you data scientists out there using AWS, we are working on a SageMaker algorithm that will allow you to run the harpin AI toolkit with a single line of Python code in a Jupyter notebook.
 
 # Contact Us
 Do you have a question or problem with one of these solutions?  Is there something missing that would help your team or help you evaluate this product?  Do you like what you see and want to learn more about our product or get a demo?
