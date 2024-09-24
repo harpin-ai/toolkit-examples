@@ -2,7 +2,7 @@
 
 Download our harpin AI Toolkit Docker image and try out our identity resolution algorithm on your data. Run the Docker image anywhere you have access to the data and a Docker runtime, in your cloud or on your own workstation. The harpin AI shell will walk you through the setup and configuration process and have the resolution process running in Docker in no time at all.
 
-The image supports executing identity resolution on up to 5 million records as part of the trial. For handling more than 5 million records, please contact [Harpin AI]( (https://harpin.ai/demo/) for additional options.
+The image supports executing identity resolution on up to 5 million records as part of the trial. For handling more than 5 million records, please contact [Harpin AI] (https://harpin.ai/demo/) for additional options.
 
 ## Instructions
 
