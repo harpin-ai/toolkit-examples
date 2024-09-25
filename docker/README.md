@@ -67,7 +67,7 @@ Follow the instructions below to set up and run the Harpin AI Toolkit in a Docke
    docker exec -it harpin-ai-toolkit-master-1 harpin-shell
    ```
 
-   Here is an example of adding a new input source.  The location of sources is relative to the directory where the Docker compose file is located.  To use a different directory, an HARPIN_DATA environment variable can be set with absolution location of the parent directory prior to starting the Harpin Toolkit containers.
+   Here is an example of adding a new input source.  The location of sources is relative to the directory where the Docker compose file is located.  To use a different directory, a HARPIN_DATA environment variable can be set to the absolute path of your data's parent directory prior to starting the containers.
 
    ```
      _                      _            _    ___ 
