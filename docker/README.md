@@ -19,7 +19,7 @@ Follow the instructions below to set up and run the Harpin AI Toolkit in a Docke
 
 1. **Download the Docker Compose File**
 
-   Download the [Docker Compose file](compose.yml) (right-click the link and choose "Save Link As") to a directory where Harpin AI configuration will be stored, and where input files are available (if stored locally).
+   Download the [Docker Compose file](compose.yml?raw=true) (right-click the link and choose "Save Link As..." or "Download Linked File As...") to a directory where Harpin AI configuration will be stored, and where input files are available (if stored locally).
 
    ```bash
    mkdir harpin-ai-toolkit
@@ -63,11 +63,9 @@ Follow the instructions below to set up and run the Harpin AI Toolkit in a Docke
 
    Use the `Manage sources` option in the Harpin AI shell to specify input data locations and data mappings.
 
-   ```bash
-   docker exec -it harpin-ai-toolkit-master-1 harpin-shell
-   ```
+   The location of input data is relative to the directory where the Docker compose file is located.  To use a different directory, a HARPIN_DATA environment variable can be set to the absolute path of your data's parent directory prior to starting the containers.
 
-   Here is an example of adding a new input source.  The location of sources is relative to the directory where the Docker compose file is located.  To use a different directory, a HARPIN_DATA environment variable can be set to the absolute path of your data's parent directory prior to starting the containers.
+   A sample data file with 50,000 fake identity records is available at `/sample` in the container.  The example below demostrates using this file.
 
    ```
      _                      _            _    ___ 
@@ -109,9 +107,9 @@ Follow the instructions below to set up and run the Harpin AI Toolkit in a Docke
    
    Enter selection [1-3]: 1
    
-   Enter a path to the source data: test/sample
+   Enter a path to the source data: /sample
    
-   Successully loaded a sample of data from "/data/test/sample"...
+   Successully loaded a sample of data from "/sample"...
    
    +--------------------+---------------+-----------+--------+----------+--------------------+--------------------+---------------+-----+-----+-------+----------+------+------+------+----------+----------+
    |                  id|     given_name|middle_name|sur_name|       dob|               email|      street_address|           city|  zip|state|country|     phone|gender|email2|phone2|ip_address|loyalty_id|
@@ -251,7 +249,32 @@ Follow the instructions below to set up and run the Harpin AI Toolkit in a Docke
    Enter selection [1-2]: 1
    
    Saving source configuration to .harpin/sources/test.yml...
+
+   Select an option:
+
+        1. Add source
+        2. Update source
+        3. Delete source
+        4. Show sources
+        5. Back to main menu
+
+   Enter selection [1-5]: 5
+   
+   Select an option:
+
+        1. Manage sources
+        2. Run identity resolution
+        3. Export config to S3
+        4. Exit
+
    ```
+
+   The toolkit also supports accessing input files in s3 by specifying the s3 URI (e.g. s3://<bucket_name>/<key>).  If credentials are needed to access files in s3, the following environments are supported and should be set prior to starting the harpin AI toolkit containers.
+
+      - **AWS_ACCESS_KEY_ID** 
+      - **AWS_SECRET_ACCESS_KEY**
+      - **AWS_SESSION_TOKEN**
+      - **AWS_DEFAULT_REGION** 
 
 
 8. **Run Identity Resolution**
@@ -283,8 +306,8 @@ Follow the instructions below to set up and run the Harpin AI Toolkit in a Docke
    Executing identity resolution, this may take a while...
    
    
-   Loading records for source "Test" from "test/sample"...
-   Loaded 50000 records for source "Test" from "test/sample".
+   Loading records for source "Test" from "/sample"...
+   Loaded 50000 records for source "Test" from "/sample".
    Total record count: 50000
    Finished reading input data:  2024-09-24 21:57:44+00:00
    Finished excluding bad cases:  2024-09-24 21:58:18+00:00
