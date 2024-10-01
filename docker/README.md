@@ -269,7 +269,7 @@ Follow the instructions below to set up and run the Harpin AI Toolkit in a Docke
 
    ```
 
-   The toolkit also supports accessing input files in s3 by specifying the s3 URI (e.g. s3://<bucket_name>/<key>).  If credentials are needed to access files in s3, the following environments are supported and should be set prior to starting the harpin AI toolkit containers.
+   The toolkit also supports accessing input files in s3 by specifying the s3 URI (e.g. s3://<bucket_name>/<key>).  If credentials are needed to access files in s3, the following environment variables are supported and should be set prior to starting the harpin AI toolkit containers.
 
       - **AWS_ACCESS_KEY_ID** 
       - **AWS_SECRET_ACCESS_KEY**
