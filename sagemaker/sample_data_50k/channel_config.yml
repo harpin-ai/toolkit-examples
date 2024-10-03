@@ -5,7 +5,7 @@ sources:
     format: csv
     attributeMappings:
       - canonicalAttribute: sourceRecordId
-        sourceAttribute: id
+        sourceAttribute: record_id
       - canonicalAttribute: firstName
         sourceAttribute: given_name
       - canonicalAttribute: middleName
