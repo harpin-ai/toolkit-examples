@@ -2,7 +2,7 @@
 
 # Getting Started
 ## Subscribe to Amazon SageMaker Algorithm
-1. Ensure you are logged into the AWS account which has access to the data on which you want to run the harpin AI toolkit.
+1. Ensure you are logged in to the AWS account which has access to the data on which you want to run the harpin AI toolkit.
 1. Visit the harpin AI ["Identity Resolution with AI and ML" listing](https://aws.amazon.com/marketplace/pp/prodview-etnavzupbnthk) on AWS Marketplace.
 1. Click the "Continue to subscribe" button.
 1. Review the offer details and click the "Continue to configuration" button.
