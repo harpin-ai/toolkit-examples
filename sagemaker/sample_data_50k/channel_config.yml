@@ -5,31 +5,35 @@ sources:
     format: csv
     attributeMappings:
       - canonicalAttribute: sourceRecordId
-        sourceAttribute: record_id
+        sourceAttribute: id
       - canonicalAttribute: firstName
         sourceAttribute: given_name
       - canonicalAttribute: middleName
         sourceAttribute: middle_name
       - canonicalAttribute: lastName
         sourceAttribute: sur_name
-      - canonicalAttribute: mobilePhone
-        sourceAttribute: phone
-      - canonicalAttribute: homePhone
-        sourceAttribute: phone2
-      - canonicalAttribute: emailAddress
-        sourceAttribute: email
-      - canonicalAttribute: emailAddress
-        sourceAttribute: email2
       - canonicalAttribute: dateOfBirth
         sourceAttribute: dob
-      - canonicalAttribute: postalCode
-        sourceAttribute: zip
+      - canonicalAttribute: emailAddress
+        sourceAttribute: email
       - canonicalAttribute: streetAddress
         sourceAttribute: street_address
       - canonicalAttribute: city
         sourceAttribute: city
+      - canonicalAttribute: postalCode
+        sourceAttribute: zip
       - canonicalAttribute: governingDistrict
         sourceAttribute: state
+      - canonicalAttribute: country
+        sourceAttribute: country
+      - canonicalAttribute: phoneNumber
+        sourceAttribute: phone
+      - canonicalAttribute: gender
+        sourceAttribute: gender
+      - canonicalAttribute: emailAddress
+        sourceAttribute: email2
+      - canonicalAttribute: phoneNumber
+        sourceAttribute: phone2
       - canonicalAttribute: ipAddress
         sourceAttribute: ip_address
       - canonicalAttribute: accountId
