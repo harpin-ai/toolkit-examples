@@ -1,0 +1,40 @@
+#This file provides the source configuration for the sample_data_50k.csv sample data file.
+sources:
+  - id: clustering
+    name: Sample Data 50k
+    format: csv
+    attributeMappings:
+      - canonicalAttribute: sourceRecordId
+        sourceAttribute: id
+      - canonicalAttribute: firstName
+        sourceAttribute: given_name
+      - canonicalAttribute: middleName
+        sourceAttribute: middle_name
+      - canonicalAttribute: lastName
+        sourceAttribute: sur_name
+      - canonicalAttribute: dateOfBirth
+        sourceAttribute: dob
+      - canonicalAttribute: emailAddress
+        sourceAttribute: email
+      - canonicalAttribute: streetAddress
+        sourceAttribute: street_address
+      - canonicalAttribute: city
+        sourceAttribute: city
+      - canonicalAttribute: postalCode
+        sourceAttribute: zip
+      - canonicalAttribute: governingDistrict
+        sourceAttribute: state
+      - canonicalAttribute: country
+        sourceAttribute: country
+      - canonicalAttribute: phoneNumber
+        sourceAttribute: phone
+      - canonicalAttribute: gender
+        sourceAttribute: gender
+      - canonicalAttribute: emailAddress
+        sourceAttribute: email2
+      - canonicalAttribute: phoneNumber
+        sourceAttribute: phone2
+      - canonicalAttribute: ipAddress
+        sourceAttribute: ip_address
+      - canonicalAttribute: accountId
+        sourceAttribute: loyalty_id
