@@ -3,9 +3,13 @@ sources:
   - id: clustering
     name: Sample Data 50k
     format: csv
+    csvOptions:
+      delimiter: ','
+      quote: '"'
+      escape: \
     attributeMappings:
       - canonicalAttribute: sourceRecordId
-        sourceAttribute: id
+        sourceAttribute: record_id
       - canonicalAttribute: firstName
         sourceAttribute: given_name
       - canonicalAttribute: middleName
