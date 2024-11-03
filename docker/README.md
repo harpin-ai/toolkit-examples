@@ -73,7 +73,7 @@ Follow the instructions below to set up and run the Harpin AI Toolkit in a Docke
    | '_ \ / _\ | '__| '_ \| | '_ \    / _ \  | | 
    | | | | (_| | |  | |_) | | | | |  / ___ \ | | 
    |_| |_|\__,_|_|  | .__/|_|_| |_| /_/   \_\___|
-                     |_|                          
+                    |_|                          
                                                 
 
    Select an option:
@@ -231,7 +231,7 @@ Follow the instructions below to set up and run the Harpin AI Toolkit in a Docke
    | '_ \ / _\ | '__| '_ \| | '_ \    / _ \  | | 
    | | | | (_| | |  | |_) | | | | |  / ___ \ | | 
    |_| |_|\__,_|_|  | .__/|_|_| |_| /_/   \_\___|
-                     |_|                          
+                    |_|                          
                                                 
 
    Select an option:
@@ -291,7 +291,7 @@ Follow the instructions below to set up and run the Harpin AI Toolkit in a Docke
    | '_ \ / _\ | '__| '_ \| | '_ \    / _ \  | | 
    | | | | (_| | |  | |_) | | | | |  / ___ \ | | 
    |_| |_|\__,_|_|  | .__/|_|_| |_| /_/   \_\___|
-                     |_|                          
+                    |_|                          
                                                 
 
    Select an option:
