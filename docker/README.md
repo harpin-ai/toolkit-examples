@@ -124,26 +124,7 @@ Follow the instructions below to set up and run the Harpin AI Toolkit in a Docke
    +--------------------+----------+-----------+---------+----------+--------------------+------------------+----------------+-----+-----+-------+----------+------+------+------+----------+----------+
    |           record_id|given_name|middle_name| sur_name|       dob|               email|    street_address|            city|  zip|state|country|     phone|gender|email2|phone2|ip_address|loyalty_id|
    +--------------------+----------+-----------+---------+----------+--------------------+------------------+----------------+-----+-----+-------+----------+------+------+------+----------+----------+
-   |19315818608097-30...|  Danielle|     Cheley|   Powers|1986-10-06|                NULL|3072 bookcliff ave|  grand junction|81504|   CO|     US|4687136508|     F|  NULL|  NULL|      NULL|      NULL|
-   |17329071171502-50...|   Katrina|     Nelius|Becker SR|2009-11-12|becker1114@verizo...|     192 cherry ln|      river edge| NULL|   NJ|     US|0508620972|     F|  NULL|  NULL|      NULL|      NULL|
-   |11038673306031-70...|  Fernando|      Uziel|    Jones|1975-04-02|fernandojones979@...|  19972 packard st|            NULL|48234|   MI|     US|2894486142|     M|  NULL|  NULL|      NULL|      NULL|
-   |7223271171215-277701|      NULL|       NULL|     NULL|1928-02-26|sheilaritter51@ao...|   3151 waldmar rd|          toledo|43615| NULL|     US|1530874732|     F|  NULL|  NULL|      NULL|      NULL|
-   | 997592661427-545257|      NULL|       NULL|     NULL|2009-09-21|grantjl9410@outlo...|525 birch ridge dr|       rio vista|94571|   CA|   NULL|6488241196|     F|  NULL|  NULL|      NULL|      NULL|
-   |8125038334617-357572|     James|       NULL|   Snyder|2003-04-27|snyderj6553@gmail...|5224 brook park ln|      sacramento|95841|   CA|     US|      NULL|     M|  NULL|  NULL|      NULL|      NULL|
-   | 487692638511-239541|      Mary|       NULL|     West|1934-08-22|                NULL|      712 north st|brooklyn heights|44131|   OH|     US|7351376627|     F|  NULL|  NULL|      NULL|      NULL|
-   |11669693054059-38202|       TBA|       NULL|    Young|1955-08-27|jessicayoung9725@...| 147 meadowview ln|         buffalo|14221|   NY|     US|1405964925|     F|  NULL|  NULL|      NULL|      NULL|
-   | 4952210043456-10021|    Adrian|       NULL|     NULL|1971-09-29|adrianross8086@ya...|    6608 s 18th dr|         phoenix|85041|   AZ|     US|9608563445|  NULL|  NULL|  NULL|      NULL|      NULL|
-   |10780918020735-23...| Stephanie|     Katryn|  Coleman|1990-11-05|                NULL|     287 carver st|         winslow|61089|   IL|     US|5379761538|     F|  NULL|  NULL|      NULL|      NULL|
-   |18960670171076-22...|      NULL|       NULL|     NULL|2017-08-02|natasha.cella.gar...|      408 e 3rd st|      grant city|64456|   MO|   NULL|9712193885|     F|  NULL|  NULL|      NULL|      NULL|
-   |5327010458504-300411|  Victoria|   Mareline|     NULL|2001-04-26|victoriamjohnson3...|  3902 tawakoni ln|         garland|75043|   TX|     US|1605895274|     F|  NULL|  NULL|      NULL|      NULL|
-   |4771339007121-958644|      NULL|       NULL|     NULL|1982-07-31|michaeladams8390@...|    4585 w 40th st|       clearlake|95422| NULL|     US|3752970208|     M|  NULL|  NULL|      NULL|      NULL|
-   |14889697522155-67...|      NULL|       NULL| Sheppard|2016-07-31|jamessheppard4945...|     49 norgate rd|       manhasset|11030|   NY|     US|3601756562|     M|  NULL|  NULL|      NULL|      NULL|
-   |4232553581839-996404|    Hayden|     Wilkes|     NULL|1950-05-02|haydenmiranda4473...|        805 lee rd|         orlando|32810|   FL|     US|8414539625|     M|  NULL|  NULL|      NULL|      NULL|
-   |13747984175303-19...|   Anthony|          D| Johnston|1995-03-09|anthonyjohnston60...|              NULL|         houston|77018|   TX|     US|6511312693|     M|  NULL|  NULL|      NULL|      NULL|
-   |18279643949327-60...|    Jeanne|    Seletta| Robinson|1946-06-04|j.robinson3445@ou...|7165 sauk trail rd|     cedar grove| NULL|   WI|     US|5315489931|     F|  NULL|  NULL|      NULL|      NULL|
-   |5741968235163-482638|    Brooke|     Yuliya|  Jackson|1985-10-04|b.jackson3735@ver...|      464 manor st|       lancaster|17603|   PA|     US|      NULL|     F|  NULL|  NULL|      NULL|      NULL|
-   |3470977857913-411511|        Mr|       NULL|    Booth|1954-10-29|matthewbooth5106@...|              NULL|        sac city|50583|   IA|     US|8447612115|     M|  NULL|  NULL|      NULL|      NULL|
-   |  93634301215-289641|      NULL|    Mathias|    Dixon|1963-09-25|miguelmathiasdixo...|    1440 duffer dr|      chesterton|46304|   IN|     US|7366734320|     M|  NULL|  NULL|      NULL|      NULL|
+   <Removed for brevity>                                                                                                                                                         
    +--------------------+----------+-----------+---------+----------+--------------------+------------------+----------------+-----+-----+-------+----------+------+------+------+----------+----------+
    only showing top 20 rows
 
@@ -151,32 +132,6 @@ Follow the instructions below to set up and run the Harpin AI Toolkit in a Docke
    Do you wish to add another source location? [default: no]: 
 
    Extracting source attribute names and example values...
-
-
-   Extracted source attribute names and example values:
-
-   +--------------+---------------------------------------+
-   |AttributeName |AttributeValue                         |
-   +--------------+---------------------------------------+
-   |record_id     |19315818608097-305735                  |
-   |given_name    |Christine's Cleaning                   |
-   |middle_name   |Hildebrand                             |
-   |sur_name      |Tammie Edwards                         |
-   |dob           |1986-10-06                             |
-   |email         |david.massimino.woodard7965@hotmail.com|
-   |street_address|4232 rockdell hall st                  |
-   |city          |brooklyn heights                       |
-   |zip           |81504                                  |
-   |state         |CO                                     |
-   |country       |US                                     |
-   |phone         |15388692123                            |
-   |gender        |F                                      |
-   |email2        |                                       |
-   |phone2        |                                       |
-   |ip_address    |                                       |
-   |loyalty_id    |                                       |
-   +--------------+---------------------------------------+
-
 
    Here are the recommended mappings based on keyword matches:
 
