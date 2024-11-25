@@ -2,7 +2,7 @@
 
 Download our harpin AI Toolkit Docker image and try out our identity resolution algorithm and data quality analysis on your data. Run the Docker image anywhere you have access to the data and a Docker runtime, in your cloud or on your own workstation. The harpin AI shell will walk you through the setup and configuration process and have the resolution process running in Docker in no time at all.
 
-The image supports executing identity resolution on up to 5 million records as part of the trial. For handling more than 5 million records, please contact [Harpin AI](https://harpin.ai/demo/) for additional options.
+The image supports executing identity resolution and data quality reports on up to 5 million records as part of the trial. For handling more than 5 million records, please contact [Harpin AI](https://harpin.ai/demo/) for additional options.
 
 ## Instructions
 
@@ -29,9 +29,17 @@ Follow the instructions below to set up and run the Harpin AI Toolkit in a Docke
 
    This file provides Docker with the necessary instructions to download, configure, and launch the Harpin AI Toolkit, including the required services, network settings, and resource allocations. It automates the process of setting up and scaling the toolkit environment, ensuring that all components work together seamlessly.
 
-3. **Start the Harpin AI Toolkit**
+   The directory containing the compose.yml is the directory where inputs and outputs to the toolkit will be stored. To use a different directory, a HARPIN_DATA environment variable can be set to the absolute path of your data's parent directory prior to starting the containers.  If running the toolkit on Linux, make sure the directory has permission to be read by the harpin container user (UID=1001).  Run `chown 1001 <directory>` to enable the containers to access the directory. 
+
+
+2. **Start the Harpin AI Toolkit**
 
    In the directory where the `compose.yml` file is located, start the Harpin AI Toolkit by running the following command. Replace `<N>` with the desired number of workers.  A minimum of 2 CPU cores and 4 GB of memory is required to run identity resolution with 1 worker. Each additional worker requires 1 extra CPU core and 2 GB of memory. Increasing the number of workers can significantly reduce the time it takes to perform identity resolution.  Ensure the Resources defined in your Docker Settings exceed the resources required to run at the desired scale. 
+
+   * 1 worker - 4GB memory and 2 CPU cores
+   * 2 workers - 6GB memory and 3 CPU cores
+   * 3 workers - 8GB memory and 4 CPU cores
+   * 4 workers - 10GB memory and 5 CPU cores
 
    ```bash
    docker compose up -d --scale toolkit-worker=<N>
@@ -51,7 +59,7 @@ Follow the instructions below to set up and run the Harpin AI Toolkit in a Docke
 
    By scaling the number of workers, you can achieve faster identity resolution, especially when handling larger datasets. If the dataset is not large, then adding additional workers may not have a significant impact on processing time.
 
-5. **Enter the Harpin AI Shell**
+3. **Enter the Harpin AI Shell**
 
    Once the containers are up and running, enter the Harpin AI shell to configure input data and run identity resolution.
 
@@ -59,7 +67,7 @@ Follow the instructions below to set up and run the Harpin AI Toolkit in a Docke
    docker exec -it harpin-ai-toolkit-master-1 harpin-shell
    ```
 
-6. **Manage Input Sources**
+4. **Manage Input Sources**
 
    Use the `Manage sources` option in the Harpin AI shell to specify input data locations and data mappings.
 
@@ -219,7 +227,7 @@ Follow the instructions below to set up and run the Harpin AI Toolkit in a Docke
       - **AWS_DEFAULT_REGION** 
 
 
-8. **Run Identity Resolution**
+5. **Run Identity Resolution**
 
    Use the `Run identity resolution` option to execute the identity resolution process.
 
@@ -279,7 +287,7 @@ Follow the instructions below to set up and run the Harpin AI Toolkit in a Docke
    If Identity Resolution fails to complete, check the Resources section in Docker Settings to ensure enough resources are available for your desired scale.
 
 
-9. **Run Data Quality Report**
+6. **Run Data Quality Report**
 
    Use the `Run data quality report` option to analyze the quality of your identity data.
 
