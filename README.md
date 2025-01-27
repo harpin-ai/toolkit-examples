@@ -1,4 +1,4 @@
-![image](images/harpinAI-logo-medium.png)
+![image](images/harpin.AI-logo.png)
 
 * [Harpin AI Overview](#harpin-ai-overview)
   * [The Business Problem](#the-business-problem)
