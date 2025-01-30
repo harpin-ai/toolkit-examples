@@ -268,14 +268,14 @@ Follow the instructions below to set up and run the Harpin AI Toolkit in a Docke
    Finished post-processing.
 
 
-   Identity Graph Summary
+  Identity Graph Summary
    ----------------------
    Total records: 50000
-   Records pinned: 49165
+   Records pinned: 49162
 
-   Total identities: 26145
+   Total identities: 25939
 
-   Found 36983 records with duplicates in source "Test".
+   Found 37247 records with duplicates in source "Test".
 
    Identity graph written to "output/9899a4ea-eafe-4362-9fa7-0e91e439bf9e".
    Identity resolution completed successfully
