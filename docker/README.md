@@ -328,15 +328,15 @@ Follow the instructions below to set up and run the Harpin AI Toolkit in a Docke
    Data Quality Report
    -------------------
    24910  Records with an invalid phone number
-   6357  Records with an invalid email address
-   4679  Records with unrecognized names
-   2917  Records with some portion of the first or last name repeated in both fields
-   1970  Records with placeholder consumer data
-   1424  Records with suffix in a name field
-   1269  Records with date of birth detected in the remote past or future
-   1099  Records with common misspelling in an email address domain
-      490  Records with same first and last names values
-      287  Records with both first and last name detected in a single field
+    6357  Records with an invalid email address
+    4679  Records with unrecognized names
+    2917  Records with some portion of the first or last name repeated in both fields
+    1970  Records with placeholder consumer data
+    1424  Records with suffix in a name field
+    1269  Records with date of birth detected in the remote past or future
+    1099  Records with common misspelling in an email address domain
+     490  Records with same first and last names values
+     287  Records with both first and last name detected in a single field
       31  Records containing only an email address
 
 
