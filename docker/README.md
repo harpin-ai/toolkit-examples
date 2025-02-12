@@ -268,7 +268,7 @@ Follow the instructions below to set up and run the Harpin AI Toolkit in a Docke
    Finished post-processing.
 
 
-  Identity Graph Summary
+   Identity Graph Summary
    ----------------------
    Total records: 50000
    Records pinned: 49162
